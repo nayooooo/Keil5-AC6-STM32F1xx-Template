@@ -1,6 +1,9 @@
 #include "main.h"
 
-void System_Init(void);
+void System_Init(void)
+{
+	delay_init();
+}
 
 int main()
 {
@@ -10,9 +13,4 @@ int main()
 	{
 		;
 	}
-}
-
-void System_Init(void)
-{
-	delay_init();
 }
